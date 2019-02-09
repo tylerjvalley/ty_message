@@ -13,3 +13,19 @@
 .sign-up-link {
   color: white;
 }
+
+@media only screen and (max-width: 766px) {
+  .or-divider {
+    display: none;
+  }
+}
+
+.rememberme {
+  margin-left: 5px;
+}
+
+.submit_button {
+  width: 300px;
+  height: 49px;
+
+}
