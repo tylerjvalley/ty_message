@@ -1,17 +1,9 @@
 class ChatroomController < ApplicationController
 
   def index
-    @message = Message.find(message_params[:id])
+    @messages = Message.all
   end
 
 
-
-
-
-  private
-
-  def message_params
-
-  end
 
 end
